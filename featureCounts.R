@@ -25,7 +25,6 @@ currentTime <- paste(format(Sys.time(), "%Y-%m-%dt%H_%M_%S"))
 
 savePath <- file.path(path = '.',paste('save', currentTime, "RDS", sep=".")) 
 
-# Save the analysis
 saveRDS(lst_esetParts, file = savePath )  
 lastSaved <- currentTime
 
