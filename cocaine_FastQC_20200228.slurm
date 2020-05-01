@@ -20,6 +20,8 @@ do
 	/mnt/pan/courses/sybb412/tools/FastQC/fastqc $file -o /mnt/pan/courses/sybb412/jrp208/FastQC_results/
 done
 
+java -version
+
 rm -rf "$PFSDIR"/*
 
 
