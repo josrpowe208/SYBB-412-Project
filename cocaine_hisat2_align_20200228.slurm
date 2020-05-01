@@ -20,7 +20,6 @@ module load samtools
 cd /mnt/pan/courses/sybb412/jrp208/
 
 
-
 for file in /mnt/pan/courses/sybb412/jrp208/cocaine_project/*.gz
 do
 	fbname=$(basename $file .fq.gz)
@@ -32,6 +31,8 @@ do
 	fi
 done
 
+gcc --version
+hisat2 --version
+samtools --version
+
 rm -rf "$PFSDIR"/*
-
-
