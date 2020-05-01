@@ -20,4 +20,7 @@ cd /mnt/pan/courses/sybb412/jrp208/scripts/
 
 Rscript featureCounts_lncRNA.R
 
+gcc --version
+R --version
+
 rm -rf "$PFSDIR"/*
