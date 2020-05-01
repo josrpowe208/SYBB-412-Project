@@ -20,5 +20,7 @@ cd /mnt/pan/courses/sybb412/jrp208/scripts/
 
 Rscript featureCounts.R
 
-rm -rf "$PFSDIR"/*
+gcc --version
+R --version
 
+rm -rf "$PFSDIR"/*
