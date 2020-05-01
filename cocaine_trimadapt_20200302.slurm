@@ -24,6 +24,7 @@ do
 	/home/jrp208/Tools/TrimGalore-0.6.5/trim_galore $file --path_to_cutadapt /home/jrp208/.local/bin/cutadapt
 done
 
+gcc --version
+python --version
+
 rm -rf "$PFSDIR"/*
-
-
