@@ -12,7 +12,6 @@
 
 set -e
 
-module load base
 module load samtools
 
 cd /mnt/pan/courses/sybb412/jrp208/cocaine_project/
